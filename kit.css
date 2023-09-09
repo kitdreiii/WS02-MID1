@@ -1,0 +1,117 @@
+html, body{
+font-family: Flexo-Regular, arial, sans-serif;;
+margin: 0;
+}
+header{
+background-color: black;  
+ background-size: 100px;
+padding: 250px;
+text-align: center;
+}
+ body{
+        background-color: #8f8c8c;
+    }
+p1{
+    font-family: serif;
+    font-size: 18px;
+}
+h2{
+font-size: 30px;
+font-family: Georgia, serif;
+text-align: center;
+color:black;
+}
+h3{
+font-size: 50px;
+font-family: Georgia, serif;
+text-align: center;
+}
+header img{
+border-radius: 190px;
+width: 500px;
+}
+.content{
+max-width: 850px;
+margin: 0 auto;
+padding: 10 20px;
+}
+img.big-image{
+max-width: 100%;
+font-family:serif, Georgia;
+}
+p.cap3on{
+    \ font-size: 16px;
+    color: #black;
+    font-style: italic;
+    }
+    li{
+        list-style: number;
+        padding: 0;
+        font-size: 20px;
+    }
+    ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    letter-spacing: 0px;
+    }
+    ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    a{
+    color: #350075;
+    text-decoration: none;
+    }
+
+.image-section {
+        text-align: center;
+        padding: 2rem 0;
+    }
+    .image-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rounded-image-container {
+        flex: 1;
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .action-image {
+        width: 200px; 
+        height: 200px;
+        border-radius: 10%;
+    }
+    .rounded-image-container {
+        flex: 1;
+        padding: 0 1rem;
+        text-align: center;
+        font-size: 2rem;
+        color: black;
+    }
+    .rounded-image {
+        border-radius: 50%;
+        max-width: 100%;
+        box-shadow: 0 4px 6px rgba(12, 0, 0, 0.1);
+    }
+    .image-caption {
+        font-size: 1rem;
+        color: #black;
+        margin-top: 0.5rem;
+}
+footer{
+margin-top: 20px;
+padding: 40px 20px;
+background-color: black;
+}
+footer ul{
+text-align: center;
+}
+footer ul li{
+    display: inline-block;
+margin: 0 5px;
+color: whitesmoke;
+}
